@@ -126,6 +126,12 @@ h1{
         font-family: Arial, Helvetica, sans-serif;
         padding: 5px;
     }
+    .parrafoTH{
+        font-size: 30px;
+        font-family: Arial, Helvetica, sans-serif;
+        padding: 5px;
+        margin-top: 10px;
+    }
     .messititulos{
         max-width: 500px;
         border: #071433 solid;
@@ -576,10 +582,22 @@ h1{
 
 @media (min-width: 1200px){
     .footerT{
-        margin-top: 31px;
+        margin-top: 6px;
     }
     .messiBeso{
         margin-bottom: 68px;
+    }
+    .inicio{
+        padding-left: 70px;
+    }
+    .mainT{
+        padding-left: 70px;
+    }
+    .mainR{
+        padding-left: 70px;
+    }
+    .mainG{
+        padding-left: 70px;
     }
 }
 
