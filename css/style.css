@@ -449,6 +449,29 @@ h1 {
     max-width: 400px;
     max-height: 400px;
   }
+  /*Galeria*/
+  .mainG {
+    padding: 20px;
+    width: 100%;
+  }
+  .mainG .gridg {
+    text-align: center;
+  }
+  .mainG .imagen {
+    max-width: 250px;
+    border: #071433 solid;
+    border-radius: 10px;
+    border-width: 4px;
+    animation: text-focus-in 1s cubic-bezier(0.55, 0.085, 0.68, 0.53) both;
+  }
+  .mainG iframe {
+    width: 250px;
+    height: 150px;
+    margin-top: 20px;
+  }
+  .mainG .gridg2 {
+    text-align: center;
+  }
 }
 @media only screen and (min-width: 576px) {
   .gridg {

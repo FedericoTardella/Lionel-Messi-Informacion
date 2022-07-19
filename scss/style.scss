@@ -465,8 +465,32 @@ h1{
         max-width: 400px;
         max-height: 400px;
     }
+        /*Galeria*/
+        .mainG{
+            padding: 20px;
+            width: 100%;
+        
+            .gridg{
+                text-align: center;
+            }
+            .imagen{
+                max-width: 250px;
+                border: #071433 solid;
+                border-radius: 10px;
+                border-width: 4px;
+                animation:text-focus-in 1s cubic-bezier(.55,.085,.68,.53) both;
+            }
+            iframe{
+                width: 250px;
+                height: 150px;
+                margin-top: 20px;
+            }
+            .gridg2{
+                text-align: center;
+            }
+        }
+    
 }
-
 
 @media only screen and (min-width: 576px) {
     .gridg{
@@ -495,6 +519,7 @@ h1{
         background-color: #040C1F;
         border-radius: 30px;
     }
+    
 }
 
 @media only screen and (min-width: 992px) {
